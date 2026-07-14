@@ -7,7 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
-	site: 'https://lauryo.com',
+	site: 'https://lauryo.dev',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
